@@ -42,13 +42,15 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 
-### 3. Activer GitHub Pages (via GitHub Actions)
+### 3. Activer GitHub Pages
 
 Dans les Settings du repo → Pages :
 
-- Source: **GitHub Actions**
+- Source: **Deploy from a branch**
+- Branch: **gh-pages**
+- Folder: **/(root)**
 
-Le workflow [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) build et déploie automatiquement à chaque push de tag commençant par `v` (ex: `v1.0.0`).
+Le workflow [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) build et déploie automatiquement sur la branche `gh-pages` à chaque push de tag commençant par `v` (ex: `v1.0.0`).
 
 ### 4. Déclencher un déploiement
 

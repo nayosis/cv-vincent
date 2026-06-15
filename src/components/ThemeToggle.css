@@ -1,0 +1,30 @@
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  transform: rotate(20deg);
+  box-shadow: var(--shadow-lg);
+}
+
+@media print {
+  .theme-toggle {
+    display: none;
+  }
+}

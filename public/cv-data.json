@@ -1,0 +1,121 @@
+{
+  "identity": {
+    "name": "Vincent Gouadon",
+    "title": "Lead Développeur",
+    "mainHeaderTitle": "+20 ans d'expérience",
+    "subtitle": "Ingénieur d'études et de développement",
+    "location": "Deux-Sèvres (79), France",
+    "email": "vincent.gouadon@proton.me",
+    "phone": "06 65 49 68 44",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/in/",
+    "tagline": "Développeurs de solutions, passionné par la clean architecture et l'open source. Et toutes les geekeries annexes",
+    "headline": "Du mainframe aux micro-services, de développeur à lead dev — une trajectoire centrée sur la qualité, l'équipe, le produit et encore l'équipe."
+
+  },
+  "skills": {
+    "Backend": ["Java 18", "Spring Boot", "Spring WebFlux", "Kotlin", "J2EE", "Maven", "API REST"],
+    "Frontend": ["React", "Redux", "Web Components", "AngularJS", "HTML5", "CSS3", "JavaScript ES8"],
+    "Bases de données": ["Oracle", "MySQL", "SQLServer", "MongoDB", "Redis", "PostgreSQL"],
+    "DevOps & Outils": ["Git", "GitLab", "Jenkins", "Sonar", "Podman", "Docker", "Bash", "N8N"],
+    "Méthodes": ["Scrum", "SAFe", "Clean Architecture", "GitFlow", "TDD"]
+  },
+  "experiences": [
+    {
+      "title": "Lead Développeur",
+      "company": "MAIF Vie",
+      "group": "MAIF Groupe — SQUAD TAPC",
+      "period": "Depuis octobre 2022",
+      "current": true,
+      "description": "Lead Dev d'une équipe full-stack sur le périmètre MAIFVie. Mise en place d'une Clean Architecture omnicanal pour les produits Prévoyance et Assurance Vie (canal internet et conseiller). MCO sur les API MAIF (montées de version Spring Boot, migration Otoroshift).",
+      "stack": ["React", "Java 18", "Spring Boot", "WebFlux", "Maven", "API REST", "Git", "Scrum"]
+    },
+    {
+      "title": "Lead Développeur",
+      "company": "Macif.fr",
+      "group": "Macif Groupe",
+      "period": "Juin 2020 — Septembre 2022",
+      "current": false,
+      "description": "Responsable technique de l'architecture des APIs pour Macif.fr et l'application Mobile. Référant qualité de code, GitFlow, résilience et maintenabilité. Encadrement des équipes dans l'organisation SAFe.",
+      "stack": ["React", "Java 11", "Spring Boot", "Maven", "API REST", "Git", "SAFe"]
+    },
+    {
+      "title": "Ingénieur d'études et de développement",
+      "company": "Altima Assurances",
+      "group": "via Serli",
+      "period": "Avril 2019 — Mai 2020",
+      "current": false,
+      "description": "Réalisation d'un proxy de données contrat avec gestion de fallback. Développement d'un parcours de souscription full-web MRH (React/Kotlin). Formation interne Git et GitFlow. Accompagnement vers l'agilité.",
+      "stack": ["React", "Kotlin", "Java 8", "Spring", "Redis", "PostgreSQL", "CleverCloud"]
+    },
+    {
+      "title": "Ingénieur d'études et de développement — Lead Dev",
+      "company": "MACIF (Ligne BtoC)",
+      "group": "via Serli",
+      "period": "Janvier 2017 — Avril 2019",
+      "current": false,
+      "description": "Conception et refonte des micro-services Macif.fr et Application Mobile. Documentation API REST (Swagger). Développement front AngularJS et CMS Jahia. Lead Dev depuis décembre 2017.",
+      "stack": ["AngularJS", "Jahia 7", "Java 8", "Spring", "REST", "SOAP"]
+    },
+    {
+      "title": "Ingénieur d'études et de développement",
+      "company": "GIE GERAP",
+      "group": "via Cat-Amania",
+      "period": "Novembre 2014 — Janvier 2017",
+      "current": false,
+      "description": "Reprise d'architecture sur le projet RPM. Maintenance corrective et curative sur les applications Web. Mise en place Jenkins/Sonar. Supervision des serveurs de développement.",
+      "stack": ["Java", "Spring", "Oracle 10g", "PL/SQL", "Jenkins", "Sonar"]
+    },
+    {
+      "title": "Ingénieur Technique",
+      "company": "DARVA",
+      "group": "via T-Systems",
+      "period": "Avril 2013 — Septembre 2014",
+      "current": false,
+      "description": "Maintenance évolutive, corrective et curative sur les applications Web DARVA (domaine IRD Construction et Auto). Analyse et correction d'incidents. Chiffrages sur avenants.",
+      "stack": ["Java", "Struts", "Spring", "Oracle 10g", "XSL", "Confluence", "Jira"]
+    },
+    {
+      "title": "Ingénieur de développement",
+      "company": "MACIF (Centre de Service)",
+      "group": "via T-Systems",
+      "period": "Janvier 2011 — Mars 2013",
+      "current": false,
+      "description": "Maintenance sur SI Filiales (Altima, Macifilia, ID-Macif). Analyse et correction sur EURASSUR. Mise en place d'un wiki de capitalisation des connaissances.",
+      "stack": ["Java", "Oracle 10g", "Windev 5.5", "PL/SQL"]
+    },
+    {
+      "title": "Ingénieur de développement",
+      "company": "MACIF (Centre de Service Filiales)",
+      "group": "via T-Systems",
+      "period": "Mai 2008 — Décembre 2010",
+      "current": false,
+      "description": "Maintenance évolutive et corrective sur SI Altima (application EURASSUR). Mise en place d'outils de capitalisation des connaissances.",
+      "stack": ["Oracle 10g", "Windev 5.5", "PL/SQL"]
+    },
+    {
+      "title": "Analyste Programmeur",
+      "company": "MACIF (Projet MVP 2008)",
+      "group": "via T-Systems",
+      "period": "Février 2007 — Avril 2008",
+      "current": false,
+      "description": "Responsable recette interne. Développement de batchs d'extraction des vues mouvements pour les données décisionnelles. Pilotage de la base de recettes.",
+      "stack": ["MVS", "TSO", "ISPF", "Natural Adabas"]
+    }
+  ],
+  "formations": [
+    { "year": "2017", "label": "Formation Angular JS 1.5" },
+    { "year": "2013", "label": "Formation Spring 3.6" },
+    { "year": "2012", "label": "Administration Linux Niveau 1" },
+    { "year": "2011", "label": "Java, Java EE" },
+    { "year": "2008", "label": "SQL, PL/SQL, Oracle" },
+    { "year": "2006", "label": "BTS Informatique de Gestion — Développement d'Application", "detail": "Lycée Guy Chauvet, Loudun" }
+  ],
+  "extras": [
+    {
+      "label": "DevQuest Niort",
+      "description": "Membre organisateur de DevQuest, conférence tech annuelle à Niort (Dôme de Noron).",
+      "url": "https://www.devquest.fr"
+    }
+  ]
+}

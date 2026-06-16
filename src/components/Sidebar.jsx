@@ -35,12 +35,16 @@ export default function Sidebar({ identity, skills, extras }) {
           <h2 className="sidebar-section-title">Contact</h2>
           <div className="contact-list">
             <ContactItem icon="📍">{identity.location}</ContactItem>
-            <ContactItem icon="✉️">
-              <a href={`mailto:${identity.email}`}>{identity.email}</a>
-            </ContactItem>
-            <ContactItem icon="📞">
-              <a href={`tel:${identity.phone.replace(/\s/g,'')}`}>{identity.phone}</a>
-            </ContactItem>
+            {identity.email && (
+              <ContactItem icon="✉️">
+                <a href={`mailto:${identity.email}`}>{identity.email}</a>
+              </ContactItem>
+            )}
+            {identity.phone && (
+              <ContactItem icon="📞">
+                <a href={`tel:${identity.phone.replace(/\s/g,'')}`}>{identity.phone}</a>
+              </ContactItem>
+            )}
             {identity.github && (
               <ContactItem icon="🐙">
                 <a href={identity.github} target="_blank" rel="noopener noreferrer">GitHub</a>

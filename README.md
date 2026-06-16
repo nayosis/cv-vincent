@@ -50,13 +50,12 @@ Dans les Settings du repo → Pages :
 - Branch: **gh-pages**
 - Folder: **/(root)**
 
-Le workflow [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) build et déploie automatiquement sur la branche `gh-pages` à chaque push de tag commençant par `v` (ex: `v1.0.0`).
+Le workflow [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) build et déploie automatiquement sur la branche `gh-pages` à chaque push sur `main`.
 
 ### 4. Déclencher un déploiement
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git push origin main
 ```
 
 ### 5. URL du site
